@@ -1,0 +1,14 @@
+Contents of .bash_profile
+$ cat ~/.bash_profile
+
+if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
+Contents of .bashrc
+$ cat ~/.bashrc
+
+...
+alias code="cmd //C code $*"
+...
+Contents of $PATH
+$ echo $PATH
+
+... :/c/Program Files (x86)/Microsoft VS Code/bin: ...
